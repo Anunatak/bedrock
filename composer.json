@@ -1,5 +1,5 @@
 {
-  "name": "roots/bedrock",
+  "name": "anunatak/bedrock-silk",
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
@@ -34,11 +34,20 @@
   ],
   "require": {
     "php": ">=5.6",
+    "silk/silk" : "^0.9",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.6.1",
+    "johnpbloch/wordpress": "^4.6.1",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "anunatak/anunapress": "dev-master",
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/jetpack": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/iwp-client": "*",
+    "wpackagist-plugin/adminimize": "*",
+    "wpackagist-plugin/simple-page-ordering": "*",
+    "roots/soil" : "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
